@@ -1,0 +1,15 @@
+# Named networks for netwatch. Add or edit entries here.
+
+[networks]
+family   = "10.1.10.0/24"
+work     = "10.1.20.0/24"
+server   = "10.1.50.0/24"
+personal = "10.33.3.0/24"
+dmz      = "10.1.99.0/24"
+wireless = "192.168.4.0/22"
+
+
+[mikrotik]
+host = "192.168.4.1"
+user = "netwatch"
+key = "~/.ssh/netwatch_ed25519"
